@@ -96,6 +96,11 @@ MATHLIB=m pip3 install --no-build-isolation numpy
 /usr/include/python3.11
 
 
+( type the following )
+
+cd /data/data/com.termux/files/usr/include/python3.11
+
+
 ( Show this path with pwd )
 
 
