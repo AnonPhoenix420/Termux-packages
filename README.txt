@@ -86,23 +86,33 @@ pip3 install setuptools wheel packaging pyproject_metadata cython
 
 MATHLIB=m pip3 install --no-build-isolation numpy
 
+
+
+
 **If you cannot install PyCrypto**
 
-For termux you can simply go to
+( For termux you can simply go to )
 
 /usr/include/python3.11
 
-Show this path with pwd
 
-open cpython copy longintrepr.h to the python3.11 path
+( Show this path with pwd )
+
+
+( open cpython copy longintrepr.h to the python3.11 path )
+
 
 cp longintrepr.h /data/data/com.termux/files/usr/include/python3.11
 
-make sure you have clang for pip3
+
+( make sure you have clang for pip3 )
+
 
 pip3 install clang
 
-Then type
+
+( Then type )
+
 
 pip3 install pycrypto
 
