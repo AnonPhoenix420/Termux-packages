@@ -62,6 +62,11 @@ pip install geoip2
 ( I recommend doing this B4 further upgrading pip2 )
 
 
+pkg install clang python libffi openssl libsodium
+
+SODIUM_INSTALL=system pip install pynacl
+
+
 pip install clang
 pip2 install clang
 pip2 install pycrypto
@@ -72,9 +77,6 @@ pip install sshmaster
 pip install setuptools_rust
 
 
-pkg install clang python libffi openssl libsodium
-
-SODIUM_INSTALL=system pip install pynacl
 
 ***Instillation for numpy module**
 
