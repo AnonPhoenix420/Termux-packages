@@ -1,6 +1,3 @@
-
-
-
 apt update --fix-missing
 apt upgrade --fix-missing
 
@@ -35,6 +32,8 @@ apt install openssh
 pkg i proot
 pkg i php
 pkg i rust
+pkg i tor
+pkg i proxychains-ng
 
 
 pip install pycurl
@@ -66,7 +65,7 @@ pip3 install setuptools wheel packaging pyproject_metadata cython
 MATHLIB=m pip3 install --no-build-isolation numpy
 
 
-cd /data/data/com.termux/files/usr/include/python3.11
+cd data/data/com.termux/files/usr/include/python3.11/cpython
 
 
 cp longintrepr.h /data/data/com.termux/files/usr/include/python3.11
@@ -78,3 +77,8 @@ pip3 install clang
 pip3 install pycrypto
 
 
+git clone https://github.com/arch3rPro/PentestTools
+
+git clone https://github.com/rajkumardusad/IP-Tracer
+
+git clone https://github.com/7Ragnarok7/DEDMAP
