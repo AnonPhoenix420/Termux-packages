@@ -106,6 +106,7 @@ cd /data/data/com.termux/files/usr/include/python3.11
 
 ( open cpython copy longintrepr.h to the python3.11 path )
 
+cd cpython 
 
 cp longintrepr.h /data/data/com.termux/files/usr/include/python3.11
 
