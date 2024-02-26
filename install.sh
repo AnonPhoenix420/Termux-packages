@@ -43,6 +43,8 @@ pkg i rust
 pkg i tor
 pkg i proxychains-ng
 
+pip install slowloris
+pip2 install python-ping
 
 
 pip install pycurl
