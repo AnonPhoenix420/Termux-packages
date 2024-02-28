@@ -43,6 +43,11 @@ apt install openssh
 pkg i proot
 pkg i php
 pkg i rust
+pkg i tor
+pkg i proxychains-ng
+
+pip install slowloris
+pip2 install python-ping
 
 
 apt install pycurl 
