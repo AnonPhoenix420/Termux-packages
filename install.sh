@@ -11,10 +11,6 @@ apt upgrade --fix-missing
 
 termux-setup-storage
 
-mkdir termux
-
-cd termux
-
 pkg i cmake
 pkg i nano
 pkg i wget 
