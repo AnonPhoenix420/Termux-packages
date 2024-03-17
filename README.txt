@@ -24,7 +24,7 @@ pkg i wget
 pkg i tor
 pkg i proxychains-ng
 pkg i curl
-pkg i git
+pkg i cloudflared
 pkg i subversion
 pkg i python
 pkg i python2
@@ -46,6 +46,7 @@ pkg i rust
 pkg i tor
 pkg i proxychains-ng
 pkg i nmap
+
 pip install slowloris
 pip2 install python-ping
 
