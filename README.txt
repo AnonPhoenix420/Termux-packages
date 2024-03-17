@@ -45,7 +45,7 @@ pkg i php
 pkg i rust
 pkg i tor
 pkg i proxychains-ng
-
+pkg i nmap
 pip install slowloris
 pip2 install python-ping
 
